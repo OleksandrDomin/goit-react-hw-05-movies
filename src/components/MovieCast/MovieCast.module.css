@@ -1,0 +1,17 @@
+.movieCastList {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+}
+
+.movieCastListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-basis: calc((100% - 96px) / 5);
+}
