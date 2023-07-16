@@ -4,7 +4,7 @@
   padding: 20px;
   margin-bottom: 20px;
 
-  background-color: var(--blue-color);
+  background-color: gray;
 }
 
 .pageNavList {
@@ -20,16 +20,16 @@
 
   font-weight: 500;
   text-transform: uppercase;
-  color: var(--white-color);
+ 
 
   border-radius: 7px;
 
-  transition: color var(--transition), background-color var(--transition);
+  transition: color var(--transition), background-color green;
 }
 
 .pageNavLink:hover:not(.active) {
-  color: var(--blue-color);
-  background-color: var(--hover-color);
+  color: red;
+  background-color: goldenrod;
 }
 
 .container {

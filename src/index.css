@@ -1,12 +1,12 @@
 @import-normalize;
 
 :root {
-  /* Colors */
+  /* Colors
   --blue-color: #0b2eec;
   --white-color: #ffffff;
   --black-color: #000000;
   --light-blue-color: #00d1f5cc;
-  --hover-color: #00ffff;
+  --hover-color: #00ffff; */
   /* Shadows */
   --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -52,9 +52,6 @@ img {
 
 button {
   padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
   background-color: transparent;
   cursor: pointer;
 }
@@ -64,5 +61,5 @@ a {
 }
 
 .active {
-  background-color: var(--light-blue-color);
+  background-color: #e5cb08;
 }
